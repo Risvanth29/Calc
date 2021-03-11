@@ -6,7 +6,6 @@ win.geometry('300x400')
 win.title("Calculator")
 win.config(bg='powder blue')
 win.resizable(0,0)
-win.iconbitmap('LOGO.ico')
 e = Entry(win, text = a, width = 20,font = ("",16),borderwidth = 0)
 e.place(x=30,y=10,height = 40)
 
