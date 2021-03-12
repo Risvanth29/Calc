@@ -90,7 +90,6 @@ def div():
 	e.delete(0,'end')
 def eq():
 	global first_num
-	print(first_num)
 	second_num = a.get()
 	if sign=='+':
 		e.delete(0,'end')
